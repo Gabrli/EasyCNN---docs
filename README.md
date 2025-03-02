@@ -1,7 +1,7 @@
 
 # EasyCNN - Documentation
 
-Documentation for EasyCNN ( python liblary).
+Documentation for EasyCNN (python liblary).
 
 [EasyCNN](https://github.com/Gabrli/easyCNN)
 
@@ -86,7 +86,6 @@ model.add_conv(128, 3)
 model.add_max_pool(2)
 model.add_flatten()
 model.add_dense(10, activation='softmax')
-model = resnet50()
 model.compile()
 history = model.train(x_train, y_train, x_test, y_test, epochs=5)
 prediction = model.predict(my_file)
