@@ -8,8 +8,6 @@ Documentation for EasyCNN (python liblary).
 
 
 
-
-
 ## Installation
 
 Install liblary with pip
@@ -45,17 +43,8 @@ model = EasyCNN()
 | `load` | `filename* (my-model.h5)` |Method|
 | `predict` | `x:np:array (image)*` |Method|
 
-## Visualizing Training result
 
-
-| Name | Parameters     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `plot_training`      | `history: Any` | **Required**. Method |
-
-
-
-
-## Usage/Examples
+## Simple Usage/Examples
 
 ```python
 from easycnn.core import EasyCNN
@@ -94,4 +83,37 @@ visualizer = TrainingVisualizer()
 visualizer.plot_training(history)
 
 ```
+
+## Visualizing Training result
+
+
+| Name | Parameters     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `plot_training`      | `history: Any` | **Required**. Method |
+
+![image](https://github.com/user-attachments/assets/6cf34bbf-ded7-44b0-99bb-8446371b27d6)
+
+
+
+
+## 15 Presets Of The most popular models from keras 
+`ResNet50`, `ResNet152`, `ResNet50V2`, `ResNet101`, `ResNet101V2`, `ResNet152V2`, `VGG16`, `VGG19`, `InceptionV3`, `MobileNet`, `MobileNetV2`, `MobileNetV3Small`, `InceptionResNetV2`, `MobileNetV3Large`, `Xception`
+
+## Simple Usage/Examples of preset
+
+```python
+from easycnn.presets import resnet50Preset
+```
+```python
+model = EasyCNN()
+model.add(resnet50Preset(10))
+model.add_flatten()
+model.add_dense(512, activation='relu')
+model.add_dense(10, activation='softmax')
+model.compile()
+```
+
+
+
+
 
