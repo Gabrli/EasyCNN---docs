@@ -21,6 +21,8 @@ Install liblary with pip
 ```python
 from easycnn.core import EasyCNN
 from easycnn.visualizer import TrainingVisualizer
+from easycnn.exporter import EasyExporter
+from easycnn.presets import (one of prepare model from list)
 ```
 ## Model initiation
 
@@ -113,6 +115,11 @@ model.add_dense(10, activation='softmax')
 model.compile()
 ```
 
+## Conversion from Keras to ONNX
+
+| Name | Parameters     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `export_to_onnx`      | `name ( new model name ): str, path: str` | **Required**. Method |
 
 
 
