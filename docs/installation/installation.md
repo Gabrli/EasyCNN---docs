@@ -3,7 +3,7 @@
 Install liblary with pip
 
 ```bash
-  pip install easycnn
+pip install easycnnpro
 ```
 
 <a href="../imports/imports.md">Next setp -></a>
