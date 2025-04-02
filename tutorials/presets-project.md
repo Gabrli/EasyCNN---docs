@@ -1,6 +1,6 @@
 ```python
 from easycnn.core import EasyCNN
-from easycnn.presets import resnet50Preset
+from easycnn.presets import Preset
 
 import os
 from tensorflow.keras.datasets import cifar10 # -> In this project I used the cifar10 as dataset
@@ -21,9 +21,9 @@ x_train = x_train / 255
 x_test = x_test / 255
 
 # ----Model build part----
-
+preset = Preset()
 model = EasyCNN()
-model.add(resnet50Preset(10))
+model.add(preset.get_preset('resnet50', 10))
 model.add_flatten()
 model.add_dense(512, activation='relu')
 model.add_dense(10, activation='softmax')
