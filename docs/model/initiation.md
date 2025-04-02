@@ -1,7 +1,7 @@
 ## Model initiation
 
 ```bash
-model = EasyCNN()
+model = LiteCNN()
 ```
 
 <a href="./build-methods.md">Next setp -></a>
