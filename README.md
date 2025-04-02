@@ -5,7 +5,11 @@ Documentation for EasyCNN (python liblary).
 
 [EasyCNN](https://github.com/Gabrli/easyCNN)
 
+## ⚠️ IMPORTANT NOTICE ⚠️
 
+The official name of this library is "easycnnpro" because of this name is already taked in pip system. But in imports and code you call to "easycnn". 
+I'll try to change that.
+---
 ## Navigation
 1. <a href="./docs/installation/installation.md">Installation</a>
 2. <a href="./docs/imports/imports.md">Imports</a>
