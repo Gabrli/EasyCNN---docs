@@ -1,8 +1,8 @@
 ```python
-from litecnn.core import EasyCNN
+from litecnn.core import LiteCNN
 from litecnn.presets import resnet50Preset
 
-model = EasyCNN()
+model = LiteCNN()
 model.add(resnet50Preset(10)) # used preset
 model.add_flatten()
 model.add_dense(512, activation='relu')
