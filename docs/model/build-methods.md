@@ -14,3 +14,5 @@
 | `save` | `filename* (my-model.h5)` |Method|
 | `load` | `filename* (my-model.h5)` |Method|
 | `predict` | `x:np:array (image)*` |Method|
+
+<a href="../../README.md">Back to navigation -></a>
