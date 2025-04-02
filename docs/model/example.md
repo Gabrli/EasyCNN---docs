@@ -1,7 +1,7 @@
 ```python
-from easycnn.core import EasyCNN
+from litecnn.core import LiteCNN
 
-model = EasyCNN()
+model = LiteCNN()
 model.add_conv(32, 3)
 model.add_max_pool(2)
 model.add_conv(64, 3)
