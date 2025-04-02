@@ -35,6 +35,6 @@ model.compile()
 model.train(x_train, y_train, x_test, y_test, epochs=10)
 prediction = model.predict(my_file)
 
-print(f"My prediction: {prediction}")
+print(f"My prediction: {class_names[prediction]}")
 
 ```
