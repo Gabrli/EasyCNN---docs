@@ -1,5 +1,5 @@
 ```python
-from easycnn.visualizer import TrainingVisualizer
+from litecnn.visualizer import TrainingVisualizer
 
 #...code before
 

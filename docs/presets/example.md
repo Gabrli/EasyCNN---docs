@@ -1,6 +1,6 @@
 ```python
-from easycnn.core import EasyCNN
-from easycnn.presets import resnet50Preset
+from litecnn.core import EasyCNN
+from litecnn.presets import resnet50Preset
 
 model = EasyCNN()
 model.add(resnet50Preset(10)) # used preset

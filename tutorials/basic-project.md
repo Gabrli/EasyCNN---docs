@@ -1,5 +1,5 @@
 ```python
-from easycnn.core import EasyCNN
+from litecnn.core import LiteCNN
 
 import os
 from tensorflow.keras.datasets import cifar10 # -> In this project I used the cifar10 as dataset
@@ -22,7 +22,7 @@ x_test = x_test / 255
 
 # ----Model build part----
 
-model = EasyCNN() # -> initialization of the model
+model = LiteCNN() # -> initialization of the model
 model.add_conv(32, 3)
 model.add_max_pool(2)
 model.add_conv(64, 3)

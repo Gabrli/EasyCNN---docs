@@ -1,6 +1,6 @@
 ```python
-from easycnn.core import EasyCNN
-from easycnn.visualizer import TrainingVisualizer # Import visualizer function from EasyCnn
+from lite.core import LiteCNN
+from lite.visualizer import TrainingVisualizer # Import visualizer function from EasyCnn
 import os
 from tensorflow.keras.datasets import cifar10
 
