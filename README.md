@@ -1,9 +1,9 @@
 
-# EasyCNN - Documentation
+# LiteCNN - Documentation
 
 Documentation for EasyCNN (python liblary).
 
-[EasyCNN](https://github.com/Gabrli/easyCNN)
+[LiteCNN](https://github.com/Gabrli/easyCNN)
 
 ## ⚠️ IMPORTANT NOTICE ⚠️
 
